@@ -8,9 +8,9 @@
     body {
       margin: 0;
       font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-      line-height: 1.6;
       background: #f5f5f5;
       color: #333;
+      line-height: 1.6;
     }
 
     header {
@@ -18,15 +18,23 @@
       color: white;
       padding: 60px 20px;
       text-align: center;
+      position: relative;
     }
 
-    header h1 {
-      font-size: 2.8em;
-      margin-bottom: 10px;
+    .lang-switch {
+      position: absolute;
+      top: 20px;
+      left: 20px;
     }
 
-    header p {
-      font-size: 1.2em;
+    .lang-switch a {
+      background-color: white;
+      color: #3d1d75;
+      padding: 8px 16px;
+      border-radius: 20px;
+      text-decoration: none;
+      font-weight: bold;
+      font-size: 0.9em;
     }
 
     nav {
@@ -103,6 +111,9 @@
 <body>
 
   <header>
+    <div class="lang-switch">
+      <a href="index-en.html">English</a>
+    </div>
     <h1>رواق للإدارة التسويقية</h1>
     <p>نصنع التأثير عبر التدريب، الاستشارات، والتسويق الاحترافي</p>
   </header>

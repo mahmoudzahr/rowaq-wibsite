@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>طلب استشارة | رواق</title>
+  <style>
+    body { font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; margin: 0; background: #f4f4f4; color: #333; }
+    header {
+      background: linear-gradient(135deg, #3d1d75, #8e44ad); padding: 40px 20px;
+      color: white; text-align: center; position: relative;
+    }
+    .lang-switch {
+      position: absolute; top: 20px; left: 20px;
+    }
+    .lang-switch a {
+      background: white; color: #3d1d75; padding: 8px 16px;
+      text-decoration: none; border-radius: 20px; font-weight: bold;
+    }
+    form {
+      background: white; max-width: 600px; margin: 40px auto;
+      padding: 30px; border-radius: 10px; box-shadow: 0 0 10px rgba(0,0,0,0.1);
+    }
+    form input, form select, form textarea {
+      width: 100%; padding: 10px; margin: 10px 0;
+      border: 1px solid #ccc; border-radius: 5px;
+    }
+    form button {
+      background: #8e44ad; color: white; border: none;
+      padding: 12px 20px; border-radius: 25px; cursor: pointer;
+    }
+    h1 { margin-bottom: 10px; }
+    footer {
+      background: #3d1d75; color: white; text-align: center;
+      padding: 20px; font-size: 0.9em;
+    }
+  </style>
+</head>
+<body>
+
+<header>
+  <div class="lang-switch">
+    <a href="consult-en.html">English | الإنجليزية</a>
+  </div>
+  <h1>طلب استشارة</h1>
+  <p>يرجى ملء النموذج أدناه لتحديد نوع الاستشارة وتفاصيلها</p>
+</header>
+
+<form action="mailto:Mapozahra76@gmail.com" method="POST" enctype="text/plain">
+  <input type="text" name="name" placeholder="الاسم الكامل" required>
+  <input type="email" name="email" placeholder="البريد الإلكتروني" required>
+  <input type="text" name="phone" placeholder="رقم التواصل (اختياري)">
+  <select name="type">
+    <option value="">اختر نوع الاستشارة</option>
+    <option>استشارة إدارية</option>
+    <option>استشارة تسويقية</option>
+    <option>استشارة تدريبية</option>
+    <option>استشارة أسرية</option>
+  </select>
+  <textarea name="message" rows="5" placeholder="اكتب تفاصيل الحالة أو الاستفسار..." required></textarea>
+  <button type="submit">إرسال الطلب</button>
+</form>
+
+<footer>
+  جميع الحقوق محفوظة © رواق 2025
+</footer>
+
+</body>
+</html>

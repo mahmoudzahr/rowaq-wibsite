@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+<head>
+  <meta charset="UTF-8">
+  <title>نموذج حجز دورة تدريبية | رواق</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="style.css">
+  <style>
+    form {
+      max-width: 600px;
+      margin: 40px auto;
+      background: #fff;
+      padding: 30px;
+      border-radius: 10px;
+      box-shadow: 0 0 15px rgba(0,0,0,0.1);
+    }
+    form h2 {
+      text-align: center;
+      color: #8e44ad;
+    }
+    form input, form select, form textarea {
+      width: 100%; padding: 10px; margin: 10px 0;
+      border: 1px solid #ccc; border-radius: 5px; font-size: 1em;
+    }
+    form button {
+      background-color: #3d1d75; color: white;
+      padding: 12px 20px; border: none; border-radius: 25px;
+      font-size: 1em; cursor: pointer;
+      width: 100%;
+    }
+  </style>
+</head>
+<body>
+
+<header>
+  <img src="logo-riwaq.png" alt="شعار رواق" style="height: 60px;">
+  <h1 style="text-align:center;">نموذج حجز دورة تدريبية</h1>
+</header>
+
+<form action="mailto:Mapozahra76@gmail.com" method="POST" enctype="text/plain">
+  <h2>بيانات التسجيل</h2>
+  <input type="text" name="name" placeholder="الاسم الكامل" required>
+  <input type="email" name="email" placeholder="البريد الإلكتروني" required>
+  <input type="tel" name="phone" placeholder="رقم الجوال (اختياري)">
+  
+  <select name="course" required>
+    <option value="">اختر الدورة التدريبية</option>
+    <option>القيادة الإدارية الحديثة</option>
+    <option>استراتيجيات التسويق المتقدمة</option>
+    <option>التميز في خدمة العملاء</option>
+  </select>
+  
+  <textarea name="note" rows="4" placeholder="ملاحظات إضافية أو استفسار..."></textarea>
+  
+  <button type="submit">إرسال التسجيل</button>
+</form>
+
+<footer style="text-align:center; padding: 20px; background:#3d1d75; color:white;">
+  جميع الحقوق محفوظة © رواق 2025
+</footer>
+
+</body>
+</html>

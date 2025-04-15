@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Course Registration Form | Riwaq</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="style.css">
+  <style>
+    form {
+      max-width: 600px;
+      margin: 40px auto;
+      background: #fff;
+      padding: 30px;
+      border-radius: 10px;
+      box-shadow: 0 0 15px rgba(0,0,0,0.1);
+    }
+    form h2 {
+      text-align: center;
+      color: #8e44ad;
+    }
+    form input, form select, form textarea {
+      width: 100%; padding: 10px; margin: 10px 0;
+      border: 1px solid #ccc; border-radius: 5px; font-size: 1em;
+    }
+    form button {
+      background-color: #3d1d75; color: white;
+      padding: 12px 20px; border: none; border-radius: 25px;
+      font-size: 1em; cursor: pointer;
+      width: 100%;
+    }
+  </style>
+</head>
+<body>
+
+<header>
+  <img src="logo-riwaq.png" alt="Riwaq Logo" style="height: 60px;">
+  <h1 style="text-align:center;">Course Registration Form</h1>
+</header>
+
+<form action="mailto:Mapozahra76@gmail.com" method="POST" enctype="text/plain">
+  <h2>Registration Details</h2>
+  <input type="text" name="name" placeholder="Full Name" required>
+  <input type="email" name="email" placeholder="Email Address" required>
+  <input type="tel" name="phone" placeholder="Phone Number (optional)">
+  
+  <select name="course" required>
+    <option value="">Select a Training Course</option>
+    <option>Modern Administrative Leadership</option>
+    <option>Advanced Marketing Strategies</option>
+    <option>Customer Service Excellence</option>
+  </select>
+  
+  <textarea name="note" rows="4" placeholder="Additional notes or inquiry..."></textarea>
+  
+  <button type="submit">Submit Registration</button>
+</form>
+
+<footer style="text-align:center; padding: 20px; background:#3d1d75; color:white;">
+  All rights reserved © Riwaq 2025
+</footer>
+
+</body>
+</html>

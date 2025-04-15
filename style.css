@@ -1,47 +1,52 @@
 
-/* Updated style.css for Riwaq site with soft green and violet colors */
+/* Updated style.css for Riwaq Marketing */
 
 body {
     font-family: 'Tahoma', sans-serif;
-    text-align: center;
-    background-color: #f5f5f5;
+    background-color: #f9f9f9;
     margin: 0;
     padding: 0;
 }
 
-.header {
-    background-color: #b2d8b2; /* light green */
-    color: #333;
+header {
+    background-color: #a8e6a3; /* Light green */
+    color: #ffffff;
     padding: 20px;
+    text-align: center;
 }
 
-.language-switch {
-    background-color: #e0c9f0; /* light violet */
+nav {
+    background-color: #a8e6a3; /* Light green for navigation too */
     padding: 10px;
+    text-align: center;
+}
+
+nav a {
+    color: #333;
+    margin: 0 15px;
+    text-decoration: none;
     font-weight: bold;
 }
 
-.main-content {
-    background-color: #f5f5f5;
-    padding: 40px 20px;
+main {
+    background-color: #e5d4f5; /* Light purple for main content area */
+    padding: 30px;
+    text-align: center;
 }
 
-.footer {
-    background-color: #b2d8b2; /* light green */
-    color: #000;
-    padding: 10px;
+footer {
+    background-color: #a8e6a3; /* Light green for footer */
+    color: #333;
+    padding: 20px;
+    text-align: center;
     font-size: 14px;
 }
 
-h1, h2 {
-    color: #4b0082;
+h1, h2, h3 {
+    color: #4a148c;
 }
 
-a {
-    color: #4b0082;
-    text-decoration: none;
-}
-
-a:hover {
-    text-decoration: underline;
+p {
+    color: #333;
+    line-height: 1.6;
 }

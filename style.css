@@ -1,52 +1,35 @@
-
-/* Updated style.css for Riwaq Marketing */
-
 body {
-    font-family: 'Tahoma', sans-serif;
-    background-color: #f9f9f9;
+    font-family: 'Arial', sans-serif;
+    background-color: #f2f2f2;
     margin: 0;
     padding: 0;
+    color: #333;
 }
 
 header {
-    background-color: #a8e6a3; /* Light green */
-    color: #ffffff;
+    background-color: #4B0082;
+    color: white;
     padding: 20px;
-    text-align: center;
-}
-
-nav {
-    background-color: #a8e6a3; /* Light green for navigation too */
-    padding: 10px;
     text-align: center;
 }
 
 nav a {
-    color: #333;
-    margin: 0 15px;
+    color: #FFD700;
+    margin: 0 10px;
     text-decoration: none;
-    font-weight: bold;
 }
 
 main {
-    background-color: #e5d4f5; /* Light purple for main content area */
-    padding: 30px;
+    padding: 20px;
     text-align: center;
 }
 
 footer {
-    background-color: #a8e6a3; /* Light green for footer */
-    color: #333;
-    padding: 20px;
+    background-color: #4B0082;
+    color: white;
     text-align: center;
-    font-size: 14px;
-}
-
-h1, h2, h3 {
-    color: #4a148c;
-}
-
-p {
-    color: #333;
-    line-height: 1.6;
+    padding: 10px;
+    position: relative;
+    bottom: 0;
+    width: 100%;
 }
